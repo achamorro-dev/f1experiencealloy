@@ -1,0 +1,60 @@
+'.main-window':{
+	backgroundColor: '#FFFFFF',
+	exitOnClose: true,
+	navBarHidden: true
+},
+'.actionbar':{
+	backgroundColor: 'red',
+	height: '50dp',
+	left: 0,
+	top: 0,
+	width: Ti.UI.FIT,
+	zIndex: 10
+},
+'.header-controller':{
+	backgroundColor: 'transparent',
+	height: Ti.UI.FIT,
+	left: 0,
+	top: 0,
+	width: Ti.UI.SIZE
+},
+'.menu-icon':{
+	height: '15dp',
+	left: '-5dp',
+	top: '17.5dp',
+	width: '20dp'
+},
+'.header-title':{
+	color: '#FFFFFF',
+	font: {
+		fontFamily: 'Roboto-Regular',
+		fontSize: '20dp'
+	},
+	height: Ti.UI.FIT,
+	width: Ti.UI.SIZE
+},
+'.menu-view':{
+	backgroundColor: 'red',
+	height: Ti.UI.FIT,
+	left: '-200dp',
+	separatorColor: 'transparent',
+	top: 0,
+	width: '200dp',
+	zIndex: 9,
+	_toggle: false
+},
+'.menu-row':{
+	backgroundColor: 'red',
+	height: '48dp',
+	width: Ti.UI.FIT
+},
+'.menu-row-text':{
+	backgroundcolor: 'red',
+	color: '#FFFFFF',
+	font: {
+		fontFamily: 'Roboto-Regular',
+		fontSize: '20dp'
+	},
+	height: Ti.UI.FIT,
+	width: Ti.UI.FIT
+}
