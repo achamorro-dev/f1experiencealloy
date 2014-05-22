@@ -1,0 +1,26 @@
+exports.definition = {
+    config : {
+        "columns": {
+            "id": "int",
+            "birthday": "date",
+            "championships": "int",
+            "driver_type": "string",
+            "name": "string",
+            "country_id": "int", // countries model id
+            "shortname": "string",
+            "team_id": "int" // teams model id
+        },
+        "defaults": {
+            "championships": 0,
+            "country_id": 0,
+            "team_id": 0
+        },
+        "adapter": {
+            "collection_name": "drivers",
+            "db_name": "f1experience",
+            "db_file": "f1experience.sqlite",
+            "idAttribute": "id",
+            "type": "sql"
+        }
+    }
+}
