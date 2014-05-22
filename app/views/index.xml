@@ -13,13 +13,13 @@
 		<!-- MENU -->
 		<TableView id="menu_view" class="menu-view">
 			<TableViewRow class="menu-row">
-				<Label text="L('drivers_title')"></Label>
+				<Label class="menu-row-text" text="L('drivers_title')" onClick="menuItemFunction"></Label>
 			</TableViewRow>
 			<TableViewRow class="menu-row">
-				<Label class="menu-row-text" text="L('teams_title')"></Label>
+				<Label class="menu-row-text" text="L('teams_title')" onClick="menuItemFunction"></Label>
 			</TableViewRow>
 			<TableViewRow class="menu-row">
-				<Label class="menu-row-text" text="L('races_title')"></Label>
+				<Label class="menu-row-text" text="L('races_title')" onClick="menuItemFunction"></Label>
 			</TableViewRow>
 		</TableView>
 	</Window>

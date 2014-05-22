@@ -4,7 +4,7 @@
 	navBarHidden: true
 },
 '.actionbar':{
-	backgroundColor: 'red',
+	backgroundColor: '#C9171E',
 	height: '50dp',
 	left: 0,
 	top: 0,
@@ -15,13 +15,14 @@
 	backgroundColor: 'transparent',
 	height: Ti.UI.FIT,
 	left: 0,
-	top: 0,
+	top: '10dp',
 	width: Ti.UI.SIZE
 },
 '.menu-icon':{
+	backgroundImage: '/images/menu.png',
 	height: '15dp',
 	left: '-5dp',
-	top: '17.5dp',
+	top: '12.5dp',
 	width: '20dp'
 },
 '.header-title':{
@@ -31,25 +32,26 @@
 		fontSize: '20dp'
 	},
 	height: Ti.UI.FIT,
+	left: '20dp',
 	width: Ti.UI.SIZE
 },
 '.menu-view':{
-	backgroundColor: 'red',
+	backgroundColor: '#C9171E',
 	height: Ti.UI.FIT,
 	left: '-200dp',
 	separatorColor: 'transparent',
-	top: 0,
+	top: '50dp',
 	width: '200dp',
 	zIndex: 9,
 	_toggle: false
 },
 '.menu-row':{
-	backgroundColor: 'red',
+	backgroundColor: '#C9171E',
 	height: '48dp',
 	width: Ti.UI.FIT
 },
 '.menu-row-text':{
-	backgroundcolor: 'red',
+	backgroundcolor: '#C9171E',
 	color: '#FFFFFF',
 	font: {
 		fontFamily: 'Roboto-Regular',

@@ -7,7 +7,7 @@ function toggleMenu(event){
     	menuIcon = $.menu_icon;
     //Animamos el fondo del control del actionbar
     headerController.animate({
-		backgroundColor: "#000",
+		backgroundColor: "#A30000",
 		duration : 200,
 		autoreverse : true,
     });
@@ -47,7 +47,7 @@ function menuItemFunction(e){
 		menuIcon = $.menu_icon;
 	//Animamos el fondo del item seleccionado
 	e.source.animate({
-	    backgroundColor: "#000",
+	    backgroundColor: "#A30000",
 	    duration : 200,
 	    autoreverse : true,
     });
@@ -63,7 +63,7 @@ function menuItemFunction(e){
 		duration: 200
 	});
 	//Modificamos el titulo de la ventana y marcamos como oculto el menu
-	header_title.text=e.source._titleView;
+	//header_title.text=e.source._titleView;
 	menuView._toggle=false;
 };
 
