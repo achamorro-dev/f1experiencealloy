@@ -33,7 +33,7 @@ migration.up = function(migrator)
             "lap_record_driver": "string",
             "lap_record_time": "string",
             "lap_record_year": "int",
-            "laps": "int"
+            "laps": "int",
             "latitude": "float",
             "longitude": "float",
             "name": "string",
