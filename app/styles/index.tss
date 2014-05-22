@@ -1,8 +1,9 @@
-".container": {
-	backgroundColor:"white"
+".drivers-list-view":{
+	visible: false
 },
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
-} 
+".teams-list-view":{
+	opacity: false
+},
+".races-list-view":{
+	opacity: false
+}

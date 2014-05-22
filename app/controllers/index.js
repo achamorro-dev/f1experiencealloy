@@ -1,5 +1,5 @@
-function doClick(e) {
-    alert($.label.text);
+function toggleMenu(event) {
+    Ti.API.Info("Funcion toggle menu");
 }
 
 $.index.open();

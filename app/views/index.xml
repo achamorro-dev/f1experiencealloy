@@ -1,5 +1,26 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+	<Window class="main-window">
+		<View class="actionbar">
+			<View class="header-controller" onClick="toggleMenu">
+				<Button class="menu-icon"></Button>
+				<Label class="header-title">F1 Experience</Label>
+			</View>
+		</View>
+		<ScrollView class="main-content"></ScrollView>
+		<ScrollView class="drivers-list-view"></ScrollView>
+		<ScrollView class="teams-list-view"></ScrollView>
+		<ScrollView class="races-list-view"></ScrollView>
+		<!-- MENU -->
+		<TableView class="menu-view">
+			<TableViewRow class="menu-row">
+				<Label text="L('drivers_title')"></Label>
+			</TableViewRow>
+			<TableViewRow class="menu-row">
+				<Label class="menu-row-text" text="L('teams_title')"></Label>
+			</TableViewRow>
+			<TableViewRow class="menu-row">
+				<Label class="menu-row-text" text="L('races_title')"></Label>
+			</TableViewRow>
+		</TableView>
 	</Window>
 </Alloy>
