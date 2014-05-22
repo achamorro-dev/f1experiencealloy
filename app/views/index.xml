@@ -1,9 +1,9 @@
 <Alloy>
 	<Window class="main-window">
 		<View class="actionbar">
-			<View class="header-controller" onClick="toggleMenu">
-				<Button class="menu-icon"></Button>
-				<Label class="header-title">F1 Experience</Label>
+			<View id="header_controller" class="header-controller" onClick="toggleMenu">
+				<Button id="menu_icon" class="menu-icon"></Button>
+				<Label id="header_title" class="header-title">F1 Experience</Label>
 			</View>
 		</View>
 		<ScrollView class="main-content"></ScrollView>
@@ -11,7 +11,7 @@
 		<ScrollView class="teams-list-view"></ScrollView>
 		<ScrollView class="races-list-view"></ScrollView>
 		<!-- MENU -->
-		<TableView class="menu-view">
+		<TableView id="menu_view" class="menu-view">
 			<TableViewRow class="menu-row">
 				<Label text="L('drivers_title')"></Label>
 			</TableViewRow>
