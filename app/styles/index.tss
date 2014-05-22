@@ -2,8 +2,8 @@
 	visible: false
 },
 ".teams-list-view":{
-	opacity: false
+	visible: false
 },
 ".races-list-view":{
-	opacity: false
+	visible: false
 }
