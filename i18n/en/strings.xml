@@ -2,4 +2,7 @@
     <string name="drivers_title">Drivers</string>
     <string name="teams_title">Teams</string>
     <string name="races_title">Races</string>
+    <string name="drivers_title_upper">DRIVERS</string>
+    <string name="teams_title_upper">TEAMS</string>
+    <string name="races_title_upper">RACES</string>
 </resources>
