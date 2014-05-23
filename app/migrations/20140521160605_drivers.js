@@ -21,7 +21,7 @@ var preload_data = [
 {id: 20,driver_type: "SD",name: "Nico Rosberg",country_id: 2,birthday: "1985-06-27",championships: 0,team_id: 8,shortname: "ROS"},
 {id: 21,driver_type: "FD",name: "Adrian Sutil",country_id: 2,birthday: "1983-01-11",championships: 0,team_id: 9,shortname: "SUT"},
 {id: 22,driver_type: "FD",name: "Jean-Eric Vergne",country_id: 3,birthday: "1990-04-25",championships: 0,team_id: 10,shortname: "VER"}
-]
+];
 
 migration.up = function(migrator)
 {

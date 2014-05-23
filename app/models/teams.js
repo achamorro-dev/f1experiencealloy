@@ -24,4 +24,4 @@ exports.definition = {
             "type": "sql"
         }
     }
-}
+};
