@@ -67,5 +67,6 @@ function menuItemFunction(e){
 	menuView._toggle=false;
 };
 
+$.main_view.getView('main_view');
 
 $.index.open();
