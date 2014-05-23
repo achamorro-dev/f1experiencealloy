@@ -6,10 +6,7 @@
 				<Label id="header_title" class="header-title">F1 Experience</Label>
 			</View>
 		</View>
-		<ScrollView class="main-content"></ScrollView>
-		<ScrollView class="drivers-list-view"></ScrollView>
-		<ScrollView class="teams-list-view"></ScrollView>
-		<ScrollView class="races-list-view"></ScrollView>
+		<Require id="main_view" src="main_view" type="view"/>
 		<!-- MENU -->
 		<TableView id="menu_view" class="menu-view">
 			<TableViewRow class="menu-row">
