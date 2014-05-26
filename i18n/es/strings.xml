@@ -2,7 +2,10 @@
     <string name="drivers_title">Pilotos</string>
     <string name="teams_title">Escuderías</string>
     <string name="races_title">Circuitos</string>
+    <string name="news_title_upper">Noticias</string>
+    <string name="index_title_upper">INICIO</string>
     <string name="drivers_title_upper">PILOTOS</string>
     <string name="teams_title_upper">ESCUDERÍAS</string>
     <string name="races_title_upper">CIRCUITOS</string>
+    <string name="news_title_upper">NOTICIAS</string>
 </resources>
