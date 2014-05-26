@@ -1,0 +1,8 @@
+<Alloy>
+    <View class="actionbar">
+        <View id="header_controller" class="header-controller" onClick="toggleMenu">
+            <Button id="return_icon" class="return-icon"></Button>
+            <Label id="header_title" class="header-title"></Label>
+        </View>
+    </View>
+</Alloy>
