@@ -1,8 +1,16 @@
 {
-	"global": {}, 
-	"env:development": {}, 
-	"env:test": {}, 
-	"env:production": {}, 
+	"global": {
+        //COLOURS
+        "main_color": "#C9171E",
+        "dark_main_color": "#A30000",
+        "title_color": "#FFFFFF",
+        //FONTS
+        "title_font": "Roboto-Regular",
+        "normal_font": ""
+    },
+	"env:development": {},
+	"env:test": {},
+	"env:production": {},
 	"os:android": {},
 	"os:blackberry": {},
 	"os:ios": {},

@@ -4,7 +4,7 @@
 	navBarHidden: true
 },
 '.actionbar':{
-	backgroundColor: '#C9171E',
+	backgroundColor: Ti.CFG.main_color,
 	height: '50dp',
 	left: 0,
 	top: 0,
@@ -12,7 +12,7 @@
 	zIndex: 10
 },
 '.header-controller':{
-	backgroundColor: '#C9171E',
+	backgroundColor: Ti.CFG.main_color,
 	height: Ti.UI.FIT,
 	left: 0,
 	top: 0,
@@ -39,9 +39,9 @@
 },
 '.header-title':{
 	backgroundColor: 'transparent',
-	color: '#FFFFFF',
+	color: Ti.CFG.title_color,
 	font: {
-		fontFamily: 'Roboto-Regular',
+		fontFamily: Ti.CFG.title_font,
 		fontSize: '20dp'
 	},
 	height: Ti.UI.FIT,
@@ -52,7 +52,7 @@
 	top: '22dp'
 },
 '.menu-view':{
-	backgroundColor: '#C9171E',
+	backgroundColor: Ti.CFG.main_color,
 	height: Ti.UI.FIT,
 	left: '-200dp',
 	separatorColor: 'transparent',
@@ -64,14 +64,14 @@
 '.menu-row':{
 	backgroundColor: 'transparent',
 	height: '48dp',
-	selectedBackgroundColor: '#A30000',
+	selectedBackgroundColor: Ti.CFG.dark_main_color,
 	width: Ti.UI.FIT
 },
 '.menu-row-text':{
-	backgroundColor: '#C9171E',
-	color: '#FFFFFF',
+	backgroundColor: Ti.CFG.main_color,
+	color: Ti.CFG.title_color,
 	font: {
-		fontFamily: 'Roboto-Regular',
+		fontFamily: Ti.CFG.title_font,
 		fontSize: '20dp'
 	},
 	height: '47dp',
@@ -79,7 +79,7 @@
 	width: '200dp'
 },
 '.border':{
-	backgroundColor: '#A30000',
+	backgroundColor: Ti.CFG.dark_main_color,
 	bottom: 0,
 	height: 1,
 	opacity: 0.5,
