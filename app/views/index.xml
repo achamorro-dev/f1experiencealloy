@@ -13,6 +13,10 @@
 		<!-- MENU -->
 		<TableView id="menu_view" class="menu-view">
 			<TableViewRow class="menu-row">
+				<Label class="menu-row-text" text="L('index_title_upper')" onClick="menuItemFunction"></Label>
+				<View class="border"></View>
+			</TableViewRow>
+			<TableViewRow class="menu-row">
 				<Label class="menu-row-text" text="L('drivers_title_upper')" onClick="menuItemFunction"></Label>
 				<View class="border"></View>
 			</TableViewRow>
