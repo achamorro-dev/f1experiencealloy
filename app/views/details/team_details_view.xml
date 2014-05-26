@@ -1,0 +1,3 @@
+<Alloy>
+    <Require id="return_actionbar" src="commons/return_actionbar" type="view"/>
+</Alloy>
