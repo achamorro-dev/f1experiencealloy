@@ -17,10 +17,20 @@ exports.definition = {
         },
         "adapter": {
             "collection_name": "drivers",
-            "db_name": "f1experience",
-            "db_file": "f1experience.sqlite",
             "idAttribute": "id",
             "type": "sql"
         }
+    },
+    
+    extendCollection: function(Collection) {		
+        _.extend(Collection.prototype, {
+        	
+    	    comparator : function(driver) {
+        	    return driver.get('name');
+            }
+            
+        });
+		
+        return Collection;
     }
 };
