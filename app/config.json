@@ -1,10 +1,8 @@
 {
 	"global": {
-        //COLOURS
         "main_color": "#C9171E",
         "dark_main_color": "#A30000",
         "title_color": "#FFFFFF",
-        //FONTS
         "title_font": "Roboto-Regular",
         "normal_font": ""
     },
