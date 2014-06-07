@@ -1,1 +1,4 @@
-<Alloy></Alloy>
+<Alloy>
+    <ScrollView class="list-scroll-view" id="races_scroll_view">
+    </ScrollView>
+</Alloy>

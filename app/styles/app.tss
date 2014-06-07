@@ -1,5 +1,5 @@
 '.main-window':{
-	backgroundColor: '#FFFFFF',
+	backgroundColor: Alloy.CFG.background_grey_color,
 	exitOnClose: true,
 	navBarHidden: true
 },
@@ -84,5 +84,40 @@
 	height: 1,
 	opacity: 0.5,
 	width: 200
+},
+'.list-scroll-view':{
+	backgroundColor: Alloy.CFG.background_grey_color,
+	layout: 'vertical',
+	top: '55dp',
+	width: Ti.UI.FIT
+},
+'.card-margin-view':{
+	backgroundColor: 'transparent',
+	height: '100dp',
+	width: Ti.UI.FIT
+},
+'.card-content-view':{
+	backgroundColor: '#FFFFFF',
+	bottom: '10dp',
+	height: Ti.UI.FIT,
+	left: '10dp',
+	right: '10dp',
+	width: Ti.UI.FIT
+},
+'.card-picture':{
+	height: '70dp',
+	left: '10dp',
+	top: '10dp',
+	width: '70dp'
+},
+'.card-title':{
+	color: '#707070',
+	height: '70dp',
+	font: {
+		fontFamily: 'Roboto-Light',
+		fontSize: '22dp'
+	},
+	left: '90dp',
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	top: '10dp'
 }
-

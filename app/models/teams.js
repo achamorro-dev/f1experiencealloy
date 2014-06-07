@@ -18,8 +18,6 @@ exports.definition = {
         },
         "adapter": {
             "collection_name": "teams",
-            "db_name": "f1experience",
-            "db_file": "f1experience.sqlite",
             "idAttribute": "id",
             "type": "sql"
         }

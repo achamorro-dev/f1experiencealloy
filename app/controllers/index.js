@@ -67,6 +67,6 @@ function menuItemFunction(e){
 	menuView._toggle=false;
 };
 
-$.main_view.getView('main_view');
+//$.races_list_view.races_scroll_view.opacity=0;
 
 $.index.open();

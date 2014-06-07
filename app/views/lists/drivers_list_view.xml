@@ -1,4 +1,4 @@
 <Alloy>
-    <ScrollView class="list-scroll-view" id="main_scroll_view">
+    <ScrollView class="list-scroll-view" id="drivers_scroll_view">
     </ScrollView>
 </Alloy>
