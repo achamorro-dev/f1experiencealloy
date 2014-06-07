@@ -9,7 +9,7 @@
 		<Require id="main_view" src="main_view" type="view"/>
 		<Require id="drivers_list_view" src="lists/drivers_list_view" type="view"/>
 		<Require id="teams_list_view" src="lists/teams_list_view" type="view"/>
-		<!--<Require id="races_list_view" src="lists/races_list_view" type="view"/>-->
+		<Require id="races_list_view" src="lists/races_list_view" type="view"/>
 		<!-- MENU -->
 		<TableView id="menu_view" class="menu-view">
 			<TableViewRow class="menu-row">
